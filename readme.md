@@ -14,6 +14,10 @@ For example, if Nike is hiring a software engineer with expertise in AI and Mach
 
 The Cold Email Generator leverages Large Language Models (LLMs) to automate and personalize cold emails. By inputting a job posting URL, the tool extracts the relevant skills and qualifications and generates a tailored email offering services related to the client’s needs. It also integrates portfolio links that showcase the company’s expertise in those areas.
 
+![Screenshot (86)](https://github.com/user-attachments/assets/56f2b48c-8a3b-4201-b42b-44942120384c)
+
+
+
 ## Key Objective
 
 - Automate Cold Email Generation: Automatically create cold emails based on job posting requirements.

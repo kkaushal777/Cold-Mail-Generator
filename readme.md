@@ -66,20 +66,12 @@ Ensure you have the following:
 
 2. **Run the Script**:
     ```sh
-    python email_generator.py
+    python server.py
     ```
+3. **Access the Application**:
 
-3. **Input Job URL**: When prompted, enter the URL of the job posting.
+    Open a web browser and navigate to http://localhost:5000.
 
-4. **Generate Email**: The script will extract job details, process your portfolio, and generate a personalized email. The generated email will be saved in the `emails/` directory as a text file.
-
-## Example
-
-```sh
-$ python email_generator.py
-Enter the job URL: https://example.com/job-posting
-Generated email saved in emails/email.txt
-```
 
 
 ## Contributing

@@ -1,0 +1,16 @@
+Problem Statement:
+
+In the highly competitive software services industry, companies like Atlic Technologies, TCS, and Infosys are constantly striving to secure projects from global clients such as Nike, JP Morgan, and Kroger. These companies have large teams of software engineers and offer their services on a contractual basis, particularly in countries where operational costs are lower. One common method to acquire new projects is through cold emailing, where Business Development Executives (BDEs) or Sales Representatives reach out to potential clients, offering skilled professionals for their projects.
+
+However, the effectiveness of cold emails depends heavily on their relevance to the client’s needs, which are often reflected in job postings on their company’s career portals. For instance, if Nike has an open job position for a software engineer with expertise in AI and Machine Learning (ML), companies like Atlic can offer contractual staff instead of full-time hires. But creating a personalized, contextually relevant email is time-consuming and requires a deep understanding of the specific job requirements.
+
+To address this, a tool can be developed that leverages Large Language Models (LLMs) to automate the cold email generation process. By inputting a job posting URL, the tool can extract the necessary skills and qualifications from the post and generate a tailored cold email offering relevant services. For example, if the job post demands expertise in Python, Machine Learning, and DevOps, the generated email would emphasize Atlic’s capabilities in these areas and include relevant portfolio links such as "atlic.com/Python" or "atlic.com/DevOps" to showcase previous successful projects in those fields.
+
+This tool would save time for BDEs and ensure that the cold emails are more personalized and relevant to the client's needs, thereby increasing the chances of winning contracts. The LLM-powered tool can also help reduce human error, standardize outreach efforts, and maintain a high level of professional communication. 
+
+Key Objectives:
+1. Automate cold email generation based on job posting requirements.
+2. Ensure email relevance by extracting and highlighting key skills and qualifications mentioned in the job post.
+3. Integrate dynamic portfolio links showcasing past projects in the relevant areas.
+4. Improve the efficiency of sales teams by reducing manual effort in crafting emails.
+5. Increase the success rate of cold emailing through targeted and professional communication.

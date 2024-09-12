@@ -14,19 +14,17 @@ For example, if Nike is hiring a software engineer with expertise in AI and Mach
 
 The Cold Email Generator leverages Large Language Models (LLMs) to automate and personalize cold emails. By inputting a job posting URL, the tool extracts the relevant skills and qualifications and generates a tailored email offering services related to the client’s needs. It also integrates portfolio links that showcase the company’s expertise in those areas.
 
-## Key Objective
+## Tech Stack
 
-- Automate Cold Email Generation: Automatically create cold emails based on job posting requirements.
-- Ensure Relevance: Highlight essential skills and qualifications extracted from the job post.
-- Dynamic Portfolio Links: Include portfolio links that showcase relevant projects.
-- Enhance Efficiency: Save time for sales teams by automating the email creation process.
-- Increase Success Rate: Improve the chances of winning contracts by sending more targeted and professional emails.
+- **Python**: The primary programming language used for the project.
+- **Flask**: A lightweight WSGI web application framework used to create the backend API.
+- **Streamlit**: An open-source app framework can be used to create the frontend interface.
+- **LangChain**: A library for interacting with language models and managing prompts.
+- **OpenAI GPT Models**: Used for generating email content and extracting job requirements. Any other models can be used.
+- **Pandas**: A data manipulation and analysis library used for processing portfolio data.
+- **ChromaDB**: A database for managing and querying vector embeddings ([`app/portfolio.py`](app/portfolio.py)).
 
-### Key Components:
-- **LangChain OpenAI**: Interacts with GPT models to generate email content.
-- **LangChain Core**: Manages prompt templates and output parsing.
-- **LangChain Community**: Loads job descriptions from the web.
-- **Database Integration**: Stores and retrieves email content and portfolio data.
+
 
 ## Prerequisites
 
@@ -62,20 +60,11 @@ Ensure you have the following:
 
 2. **Run the Script**:
     ```sh
-    python email_generator.py
+    python app/main.py
     ```
 
-3. **Input Job URL**: When prompted, enter the URL of the job posting.
+3. **Generate Email**: The script will extract job details, process your portfolio, and generate a personalized email. The generated email will be saved in the `emails/` directory as a text file.
 
-4. **Generate Email**: The script will extract job details, process your portfolio, and generate a personalized email. The generated email will be saved in the `emails/` directory as a text file.
-
-## Example
-
-```sh
-$ python email_generator.py
-Enter the job URL: https://example.com/job-posting
-Generated email saved in emails/email.txt
-```
 
 
 ## Contributing
@@ -88,4 +77,6 @@ We welcome contributions to the Cold Email Generator project. To contribute, ple
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request.
 
+## References
 
+This project was inspired by the teaching of [Codebasics].

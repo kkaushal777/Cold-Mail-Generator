@@ -6,8 +6,8 @@ import os
 # Initialize the ChromaDB client and collection
 client = chromadb.PersistentClient('vectorstore')
 
-def get_or_create_collection(client, collection_name):
-    return client.get_or_create_collection(collection_name)
+# def get_or_create_collection(collection_name):
+#     return client.get_or_create_collection(collection_name)
 
 def read_csv_file(csv_file_path):
     if not os.path.exists(csv_file_path):
@@ -25,7 +25,7 @@ def query_collection(collection, query_texts, n_results):
     return collection.query(query_texts=query_texts, n_results=n_results)
 
 def process_portfolio(csv_file_path, collection_name, query_texts, n_results):
-    collection = get_or_create_collection(client, collection_name)
+    collection = client.get_or_create_collection(collection_name)
     df = read_csv_file(csv_file_path)
     add_documents_to_collection(collection, df)
     return query_collection(collection, query_texts, n_results)

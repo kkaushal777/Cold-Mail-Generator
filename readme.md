@@ -24,6 +24,9 @@ The Cold Email Generator leverages Large Language Models (LLMs) to automate and 
 - **Pandas**: A data manipulation and analysis library used for processing portfolio data.
 - **ChromaDB**: A database for managing and querying vector embeddings ([`app/portfolio.py`](app/portfolio.py)).
 
+## Architecture Diagram
+
+![architecture](https://github.com/user-attachments/assets/8e06cac8-d7e4-4646-b195-5bfab070935b)
 
 
 ## Prerequisites
